@@ -1,0 +1,12 @@
+
+.oshi-premium-confirm{margin:18px 0 8px;padding:19px 21px;background:linear-gradient(140deg,#fff,#fff2f6);border:1px solid #e9bbcd;border-radius:18px;box-shadow:0 8px 20px #9b69801a}
+.oshi-premium-confirm h4{margin:0 0 6px;font-size:16px;color:#784b60;letter-spacing:-.025em}
+.oshi-premium-confirm p{margin:0 0 15px;font-size:12px;line-height:1.75;color:#8d7280}
+.oshi-premium-confirm-button{display:block;width:100%;min-height:47px;padding:12px 19px;border:0;border-radius:13px;background:#ad537d;color:#fff;font-family:inherit;font-size:14px;font-weight:800;cursor:pointer;transition:background .2s,transform .2s}
+.oshi-premium-confirm-button:hover{background:#99406a;transform:translateY(-1px)}
+.oshi-premium-confirm-button:disabled{opacity:.65;cursor:wait}
+.oshi-premium-confirm-progress{margin:0 0 12px}.oshi-premium-confirm-progress[hidden]{display:none}
+.oshi-home-confirmed{display:block;margin:12px 0 0;padding:11px 17px;background:#fffaf8;border:1px solid #d5a0b7;border-radius:40px;color:#975273;font-family:inherit;font-size:12px;font-weight:800;cursor:pointer;text-align:center}
+.oshi-home-confirmed[hidden]{display:none!important}
+@media(max-width:700px){.oshi-premium-confirm{padding:16px}.oshi-premium-confirm h4{font-size:15px}.oshi-home-confirmed{margin:13px auto 0;max-width:360px;width:100%}}
+@media(prefers-reduced-motion:reduce){.oshi-premium-confirm-button{transition:none!important}}

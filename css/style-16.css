@@ -1,0 +1,8 @@
+
+.oshi-origin-feedback{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:12px 0 2px;padding:11px 14px;border:1px solid #ead5da;border-radius:13px;background:#fff9f7;color:#795b69;font-size:12px;line-height:1.6}
+.oshi-origin-feedback[data-mode="gps"]{background:#fff0f5;border-color:#e3aac1}
+.oshi-origin-feedback[data-mode="warn"]{background:#fff8e9;border-color:#ead7bb}
+.oshi-origin-feedback .oshi-origin-message{flex:1 1 235px}
+.oshi-origin-feedback button{background:#ffced8;border:1px solid #ddaabb;border-radius:30px;min-height:36px;padding:8px 13px;color:#754658;font-size:12px;font-weight:800;cursor:pointer}
+.oshi-origin-feedback button:disabled{opacity:.55;cursor:wait}
+@media(max-width:600px){.oshi-origin-feedback{align-items:stretch}.oshi-origin-feedback button{width:100%}}

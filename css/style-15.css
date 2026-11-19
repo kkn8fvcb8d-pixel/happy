@@ -1,0 +1,51 @@
+
+/* Oshimichi extension: design tokens are borrowed from the existing site. */
+.oshi-tiers{margin:18px 0 24px}.oshi-tier-switch{display:grid;grid-template-columns:1fr 1fr;gap:9px;background:#fff;border:1px solid #f0dce0;padding:7px;border-radius:20px;box-shadow:0 3px 13px #75405b0b}
+.oshi-tier{min-height:66px;padding:12px 17px;border:1px solid transparent;background:transparent;border-radius:15px;text-align:left;color:#806b74;display:flex;flex-direction:column;justify-content:center;gap:4px;transition:background .25s,transform .2s,box-shadow .2s}
+.oshi-tier b{font-size:15px;letter-spacing:.02em}.oshi-tier span{font-size:11px;font-weight:650;line-height:1.45}
+.oshi-tier[aria-pressed="true"]{background:#fff2f4;border-color:#f0c6d2;color:#864660;box-shadow:0 2px 9px #a75e8033}
+.oshi-tier.oshi-tier-premium[aria-pressed="true"]{background:linear-gradient(115deg,#a85478,#bc7b96);border-color:#b06482;color:white;box-shadow:0 6px 18px #a4547c38}
+.oshi-tier .oshi-tier-caption{font-size:11px}
+.oshi-mode-summary{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;padding:17px 20px;margin:14px 0 18px;border-radius:17px;background:#fffdfc;border:1px solid #ecd9dc;color:#785c67}
+.oshi-mode-summary b{font-size:15px;color:#5d3c4a}.oshi-mode-summary p{font-size:12px;line-height:1.75;margin:5px 0 0}
+.oshi-premium-mode .oshi-mode-summary{background:linear-gradient(110deg,#fff4f4,#fff8eb);border-color:#e5bbc9}
+.oshi-mode-note{font-size:11px;color:#926d7b;font-weight:700}
+.oshi-promo-btn{border-radius:999px;border:1px solid #ba7f98;background:#fff;color:#945271;padding:10px 16px;font-size:12px;font-weight:800}
+.oshi-premium-body{display:none;animation:oshiTierIn .3s ease}.oshi-premium-mode .oshi-premium-body{display:block}.oshi-premium-mode .oshi-free-body{display:none}
+.oshi-premium-board{background:#fff;border:1px solid #edcbd5;border-radius:22px;padding:22px;box-shadow:0 10px 28px #8f567014}
+.oshi-premium-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.oshi-premium-badge{background:#ad5b7e;color:white;border-radius:99px;padding:6px 11px;letter-spacing:.08em;font-size:10px;font-weight:900}
+.oshi-premium-head h3{font-size:19px;margin:0;color:#513943}
+.oshi-premium-sub{font-size:12px;line-height:1.8;color:#866b77;margin:0 0 14px}
+.oshi-premium-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:15px 0}
+.oshi-premium-controls label{font-size:12px;font-weight:800;color:#765965;display:grid;gap:7px}
+.oshi-premium-controls select,.oshi-premium-controls input{width:100%;min-height:44px;border:1px solid #e9cdd7;border-radius:12px;padding:9px 11px;background:#fff;color:#513d45;font-size:13px;font-family:inherit}
+.oshi-artist-fieldset{border:0;padding:0;margin:15px 0 12px}.oshi-artist-fieldset legend{font-size:12px;font-weight:850;color:#69495a;margin-bottom:10px}
+.oshi-artist-chips{display:flex;flex-wrap:wrap;gap:8px}.oshi-artist-chips label{display:inline-flex;gap:6px;align-items:center;border:1px solid #e9cbd5;border-radius:50px;padding:9px 12px;font-size:12px;font-weight:800;background:#fff9fa;color:#745363;cursor:pointer}
+.oshi-artist-chips input{accent-color:#af5a80}
+.oshi-premium-actions{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}
+.oshi-auto-btn{border:0;background:#a85176;color:white;font-size:14px;font-weight:850;padding:14px 23px;border-radius:100px;box-shadow:0 7px 18px #a8517630;min-height:46px;transition:transform .2s,background .2s}.oshi-auto-btn:hover{background:#954065;transform:translateY(-1px)}
+.oshi-auto-btn:disabled{opacity:.55;cursor:not-allowed}
+.oshi-mini-btn{background:#fff;border:1px solid #e2b7c6;color:#8c5270;padding:10px 14px;border-radius:100px;font-size:12px;font-weight:800;min-height:40px}
+.oshi-premium-hint,.oshi-premium-status{font-size:12px;line-height:1.75;color:#765b68;margin:10px 0;background:#fff7f1;padding:11px 13px;border-radius:11px}
+.oshi-premium-status{background:#fef4f7;border:1px solid #efd1da}
+.oshi-itinerary{display:grid;gap:11px;margin-top:17px}.oshi-itinerary-item{border:1px solid #f0dfe5;border-radius:16px;padding:16px;background:#fff;animation:oshiTierIn .32s ease both}
+.oshi-itinerary-row{display:flex;align-items:center;gap:12px}.oshi-itinerary-num{display:grid;place-items:center;border-radius:50%;background:#ffe1e8;color:#904c6d;font-size:12px;font-weight:900;min-width:40px;height:40px}
+.oshi-itinerary-title{flex:1;min-width:0}.oshi-itinerary-title b{display:block;font-size:15px;color:#48323d;margin-bottom:5px}.oshi-itinerary-title small{display:block;color:#826b74;font-size:11px;line-height:1.7}
+.oshi-itinerary-leg{margin:7px 0;padding:10px 13px;background:#fff8f4;border-radius:11px;font-size:11px;line-height:1.7;color:#7e626b;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:7px}
+.oshi-itinerary-leg a{color:#a45277;font-weight:800;text-decoration:underline}
+.oshi-plan-list{display:grid;gap:9px;margin-top:12px}.oshi-saved-row{padding:12px;border:1px solid #eedbe1;border-radius:13px;display:flex;align-items:center;gap:9px;justify-content:space-between;flex-wrap:wrap;background:#fff}
+.oshi-saved-row small{display:block;color:#947b85;margin-top:4px;font-size:11px}
+.oshi-promo-sheet{position:fixed;inset:0;background:#30222d99;z-index:99991;display:none;place-items:center;padding:18px}.oshi-promo-sheet[aria-hidden="false"]{display:grid}
+.oshi-promo-dialog{position:relative;background:#fffdfc;border-radius:24px;padding:26px;width:min(600px,100%);max-height:92dvh;overflow:auto;box-shadow:0 20px 80px #30112a44}
+.oshi-promo-dialog h3{font-size:23px;color:#4e3643;margin:9px 0}.oshi-promo-dialog p{font-size:12px;color:#7f6773;line-height:1.8}
+.oshi-close{position:absolute;top:17px;right:17px;width:35px;height:35px;border:0;border-radius:50%;background:#fff0f3;color:#975d78;font-size:22px}
+.oshi-plan-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}
+.oshi-plan-card{background:#fff7f8;color:#784b64;border:2px solid #eed3df;border-radius:16px;padding:16px;text-align:left;display:grid;gap:7px}
+.oshi-plan-card[aria-pressed="true"]{border-color:#b56589;background:#ffeaf0}
+.oshi-plan-card strong{font-size:17px}.oshi-plan-card span{font-size:12px}.oshi-plan-detail{background:#fff7ef;border-radius:14px;padding:15px;color:#664f58;font-size:12px;line-height:2}
+.oshi-plan-detail b{color:#8c4e6b}.oshi-note-demo{font-size:11px;color:#996376;line-height:1.65;margin:11px 0}
+@keyframes oshiTierIn{from{opacity:.55;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:620px){.oshi-tier{padding:10px 11px;min-height:72px}.oshi-tier b{font-size:13px}.oshi-tier span{font-size:10px}.oshi-mode-summary{padding:13px}.oshi-premium-board{padding:15px}.oshi-premium-controls{gap:10px}.oshi-premium-controls label{font-size:11px}.oshi-premium-head h3{font-size:17px}.oshi-plan-card{padding:13px}.oshi-promo-dialog{padding:20px}}
+@media(max-width:390px){.oshi-premium-controls{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.oshi-premium-body,.oshi-itinerary-item{animation:none!important}.oshi-tier,.oshi-auto-btn{transition:none!important}}

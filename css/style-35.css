@@ -1,0 +1,16 @@
+
+#oshiStep06 .oshi-library-heading{font-size:13px;font-weight:850;color:#87566c;margin:16px 0}
+#oshiStep06 .oshi-library-card{background:white;border:1px solid #efd2dc;border-radius:18px;padding:19px 22px;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;gap:20px;box-shadow:0 3px 12px #7542580b}
+#oshiStep06 .oshi-library-info{display:grid;gap:8px;min-width:0;flex:1}
+#oshiStep06 .oshi-library-info strong{font-size:16px;color:#594452;overflow-wrap:anywhere;line-height:1.5}
+#oshiStep06 .oshi-library-info small{font-size:12px;color:#8f7882;line-height:1.5}
+#oshiStep06 .oshi-library-badge{font-size:10px;font-weight:850;letter-spacing:.04em;color:#a35578;width:max-content;background:#fff0f5;border-radius:99px;padding:5px 9px}
+#oshiStep06 .oshi-library-card-actions{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+#oshiStep06 .oshi-library-card-actions button,#oshiStep06 .oshi-library-detail-header button{font-size:12px;font-weight:800;border-radius:99px;padding:10px 14px;min-height:39px;white-space:nowrap}
+#oshiStep06 .oshi-library-open{background:#a94e77;color:white;border:1px solid #a94e77}
+#oshiStep06 .oshi-library-small-button{background:#fff8fa;color:#845669;border:1px solid #e7bccb}
+#oshiStep06 .oshi-library-danger{color:#a34762}
+#oshiStep06 .oshi-library-detail-header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:#fff7fa;border:1px solid #eac6d5;border-radius:14px;padding:15px 17px;margin:14px 0}
+#oshiStep06 .oshi-library-detail-header strong{font-size:15px;color:#684656;line-height:1.5;overflow-wrap:anywhere}
+#oshiStep06 .step06-actions [hidden]{display:none!important}
+@media(max-width:650px){#oshiStep06 .oshi-library-card{padding:15px;flex-direction:column;align-items:stretch;gap:13px}#oshiStep06 .oshi-library-card-actions{width:100%}#oshiStep06 .oshi-library-card-actions button{flex:1;padding:10px 8px}#oshiStep06 .oshi-library-detail-header strong{font-size:14px}}
